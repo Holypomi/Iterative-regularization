@@ -33,5 +33,3 @@ def solution(y, p, x_0=1, tau=1.01, max_k=200):
     i_argmin = np.argmin(conv_ens)
 
     return solutions[i_argmin]
-
-print(solution([1,2,3,4,5,6,7], 2))
